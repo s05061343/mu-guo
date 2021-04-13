@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>M’U菓 - 登入/註冊</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome css icon -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/" />
+    <style>
+        h1 {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 50px 0px 50px 0px;
+            color: #A57A4C;
+        }
+
+        h3 {
+            font-weight: bold;
+            color: #A57A4C;
+        }
+
+        .pic {
+            width: 500px;
+            height: 350px;
+            overflow: hidden;
+        }
+
+        .pic img {
+            transform: scale(1, 1);
+            transition: all 1s ease-out;
+        }
+
+        .pic img:hover {
+            transform: scale(1.2, 1.2);
+        }
+
+        input {
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="background-color:#E8D1B4; padding: 0px;">
+        <div class="row" style="height: 86vh;">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light"
+                    style="margin: 5px; position: absolute; top: 20%; left: 0%; z-index:1;">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-item nav-link" style="font-weight: bold;" href="./index.html">
+                                首頁
+                                
+                            </a>
+                            <a class="nav-item nav-link" style="font-weight: bold; color: #E8D1B4;" href="_blank">
+                                <i class="fas fa-chevron-right"></i>
+                                登入 / 註冊
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <div style="background-color: white; height: 65vh; position: relative; top: 20%;">
+                    <div
+                        style="border: 2px solid; border-color: #E8D1B4; position: absolute; left: 30%; top: 10%; padding: 3% 5% 3% 5%; width: 40%;">
+                        <div class="row" style="margin: 4%;">
+                            你的手機號碼就是登入帳號
+                        </div>
+                        <div class="row" style="margin: 4%;">
+                            <select class="form-control" name="" id="" style="width: 25%;">
+                                <option value="">TW+866</option>
+                                <option value="">+86</option>
+                            </select>
+                            <input class="form-control" type="text" style="width: 75%; height: 100%;"
+                                placeholder="輸入電話號碼">
+                        </div>
+                        <div class="row" style="margin: 4%;">
+                            <button class="form-control"
+                                style="background-color: tomato; padding-bottom:5px; border-width: 0px; color: white;">登入
+                                /
+                                註冊</button>
+                        </div>
+                        <div class="row" style="margin: 8%; border:0.5px solid #E8D1B4;">
+                            <div
+                                style="position: absolute; left: 40%; top: 50%;background-color: white; width: 20%; text-align: center; color: lightgray;">
+                                或
+                            </div>
+                        </div>
+                        <div class="row" style="margin: 4%;">
+                            <button class="form-control"
+                                style="background-color: rgb(24, 119, 242); color: white;border-width: 0px;"><i
+                                    class="fab fa-facebook-square" style="color: white;"></i> 使用Facebook帳號登入</button>
+                        </div>
+                        <div class="row" style="margin: 4%;">
+                            <p style="text-align: center; width: 100%; color: gray; margin: 0px;">
+                                擁有帳號即表示您同意 <br />
+                                <a href="_blank" style="padding: 10px;">會員權益聲明</a>與<a href="_blank"
+                                    style="padding: 10px;">隱私權條款</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <div class="text-center p-3" style="background-color:#E8D1B4;">
+            <img src="./icon/S__18670715.jpg" width="3%">
+            <p style="color: #FDF4EB;">©2020 M’U菓.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

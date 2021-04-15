@@ -18,83 +18,37 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- 收藏夾： -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <style>
-        h1 {
-            font-size: 60px;
-            font-weight: bold;
-            margin: 50px 0px 50px 0px;
-            color: #A57A4C;
-        }
-
-        h3 {
-            font-weight: bold;
-            color: #A57A4C;
-        }
-
-        .pic {
-            overflow: hidden;
-        }
-
-        .pic img {
-            transform: scale(1, 1);
-            transition: all 0.1s ease-out;
-        }
-
-        .pic img:hover {
-            transform: scale(1.2, 1.2);
-        }
-
-        a {
-            color: white;
-            text-decoration: none;
-            background-color: transparent;
-        }
-
-        a:hover {
-            color: #A57A4C;
-        }
-
-        .uc a {
-            color: white;
-            text-decoration: none;
-            background-color: transparent;
-        }
-
-        .uc a:hover {
-            color: #A57A4C;
-            border-bottom: 3px #A57A4C solid;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
     <div class="container-fluid" style="padding: 0%;">
         <div style="z-index: 9999; position: absolute; 
-        height: 100vh; width: 8%; background-color: white; text-align: center;">
+        height: 100vh; width: 8%; min-width: 100px; background-color: white; text-align: center;">
             <div class="pic" style="height: 100%;">
                 <ul class="nav flex-column" style="position: absolute; height: 100%;">
-                    <li class="nav-item" style="width: 100%; min-height: 65%;">
+                    <li class="nav-item" style="width: 100%; min-height: 60%;">
                         <a href="#">
                             <img src="./icon/S__18670716.png" width="60%"
                                 style="margin: 10%; top: 0px; object-fit: cover;" alt="">
                         </a>
                     </li>
-                    <li class="nav-item" style="width: 100%;">
+                    <li class="nav-item" style="width: 100%; min-height: 10%;">
                         <a href="./login.html">
                             <img src="./icon/S__18670723.jpg" width="35%" style="margin: 10%;" alt="登入">
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="width: 100%; min-height: 10%;">
                         <a href="javascript: void(0)">
                             <img src="./icon/S__18670724.jpg" width="35%" style="margin: 10%;" alt="">
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="width: 100%; min-height: 10%;">
                         <a href="javascript: void(0)">
                             <img src="./icon/S__18670725.jpg" width="35%" style="margin: 10%;" alt="Facebook">
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="width: 100%; min-height: 10%;">
                         <a href="javascript: void(0)">
                             <img src="./icon/S__18670722.jpg" width="35%" style="margin: 10%;" alt="連絡電話">
                         </a>
@@ -102,47 +56,44 @@
                 </ul>
             </div>
         </div>
-        <ul class="nav justify-content-end" style="position: absolute; left: 70%; z-index: 99999;">
+        <ul class="nav justify-content-end" style="position: absolute; left: 62%; z-index: 99999;">
             <li class="nav-item">
                 <a class="uc nav-item nav-link" style="font-weight: bold;" href="#NEW">
-                    <span style="padding-bottom:5px;">NEW</span>
+                    <span style="padding: 15px;">NEW</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-                    <span style="padding-bottom:5px;">STORY</span>
+                <a class="uc nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
+                    <span style="padding: 15px;">STORY</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-                    <span style="padding-bottom:5px;">PRO</span>
+                <a class="uc nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
+                    <span style="padding: 15px;">PRO</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-                    <span style="padding-bottom:5px;">SHOP</span>
+                <a class="uc nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
+                    <span style="padding: 15px;">SHOP</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-                    <span style="padding-bottom:5px;">ABOUT</span>
+                <a class="uc nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
+                    <span style="padding: 15px;">ABOUT</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-                    <span style="padding-bottom:5px;">HELP</span>
+                <a class="uc nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
+                    <span style="padding: 15px;">HELP</span>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-                    <span style="padding-bottom:5px;">ICON</span>
+            <li class="nav-item pic">
+                <a class="uc nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
+                    <img src="./icon/S__18670720-removebg-preview-2.png"
+                        style="height: 30px; width: auto;" alt="">
                 </a>
             </li>
         </ul>
-        <!-- <a class="nav-item nav-link" style="font-weight: bold;" href="javascript: void(0)">
-            <span style="padding-bottom:5px;">ICON</span>
-            <img src="javascript: void(0)" alt="" >
-        </a> -->
         <div class="row" style="max-height: 100vh;">
             <div id="carouselExampleIndicators" class="carousel slide w-100" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -175,7 +126,7 @@
             </div>
         </div>
         <div id="NEW" class="row" style="min-height: 100vh; background-color: #FDF4EB; padding: 10%;">
-            <div class="col-lg-4 col-md-12 col-sm-12" style="padding: 5% 5% 5% 5%; ">
+            <div class="col-lg-4 col-md-12 col-sm-12" style="padding: 5% 5% 5% 5%; min-height: 395px;">
                 <a href="javascript: void(0)" class="btn">
                     <img src="首頁內容_210412_7_1.jpg" width="100%" class="rounded">
                     <p style="margin-top: 15px; color: #A57A4C;">
@@ -184,7 +135,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12" style="padding: 5% 5% 5% 5%;">
+            <div class="col-lg-4 col-md-12 col-sm-12" style="padding: 5% 5% 5% 5%; min-height: 395px;">
                 <a href="javascript: void(0)" class="btn">
                     <img src="首頁內容_210412_6_1.jpg" width="100%" class="rounded">
                     <p style="margin-top: 15px;  color: #A57A4C;">
@@ -193,7 +144,7 @@
                     </p>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12" style="padding: 5% 5% 5% 5%;">
+            <div class="col-lg-4 col-md-12 col-sm-12" style="padding: 5% 5% 5% 5%; min-height: 395px;">
                 <a href="javascript: void(0)" class="btn">
                     <img src="首頁內容_210412_5_1.jpg" width="100%" class="rounded">
                     <p style="margin-top: 15px;  color: #A57A4C;">
@@ -222,7 +173,7 @@
             </div>
         </div>
         <div class="row" style="min-height: 100vh;">
-            <div class="col-lg-6 col-md-8 col-sm-8" style="padding: 0px; height: 100%; z-index: 1;">
+            <div class="col-lg-6 col-md-12" style="padding: 0px; height: 100%; z-index: 1;">
                 <div style="margin: 30% 10% 30% 10%">
                     <div style="background-color: #FDF4EB; width: 100%; height: 100%; padding: 10%;">
                         <h1>橄欖油</h1>
@@ -233,16 +184,18 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-sm-12" style="padding: 0px; height: 100%;">
+            <div class="col-lg-6 col-md-12" style="padding: 0px; height: 100%;">
                 <img src="首頁內容_210412_2.jpg"
                     style="height: 100%; float: right; display: block; width: 100%; height: 110vh; object-fit: cover;">
             </div>
         </div>
     </div>
-    <footer class="bg-light text-center text-lg-start">
-        <div class="text-center p-3" style="background-color:#E8D1B4;">
-            <img src="./icon/S__18670715-removebg-preview.png" width="3%">
-            <p style="color: #FDF4EB;">©2020 M’U菓.</p>
+    <footer class="bg-light text-center text-lg-start" style="padding: 0%;">
+        <div class="row" style="background-color:#E8D1B4; text-align: center;">
+            <div class="text-center p-3" style="width: 100%;">
+                <img src="./icon/S__18670715-removebg-preview.png" width="3%">
+                <p style="color: #FDF4EB;">©2020 M’U菓.</p>
+            </div>
         </div>
     </footer>
 </body>

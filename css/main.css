@@ -1,0 +1,64 @@
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 50px 0px 50px 0px;
+    color: #A57A4C;
+}
+
+h3 {
+    font-weight: bold;
+    color: #A57A4C;
+}
+
+.pic {
+    overflow: hidden;
+}
+
+.pic img {
+    transform: scale(1, 1);
+    transition: all 0.1s ease-out;
+}
+
+.pic img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #A57A4C;
+}
+
+.uc a {
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.uc :hover {
+    color: #A57A4C;
+    border-bottom: 5px #A57A4C solid;
+    border-radius: 45px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.wrap{
+    /* width: 100vw;
+    height: 100vh; */
+    background: url("../S__18670610.jpg") no-repeat left bottom;
+    background-size: cover;
+    /* font-size: 700px; */
+    /* text-align: center; */
+    line-height: 100vh;
+    font-weight: bold;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }

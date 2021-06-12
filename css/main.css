@@ -67,3 +67,22 @@ input {
     -webkit-filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.7));
     filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.7))
 }
+
+.drop-shadow-text {
+    -webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 1));
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 1))
+}
+
+.jqbox-innerhtml {
+    position: absolute;
+    min-width: 280px;
+    max-height: 635px;
+    width: 70%;
+    top: 25%;
+    left: 50%;
+    margin-top: -5%;
+    margin-left: -35%;
+    border: 2px solid;
+    border-color: #E8D1B4;
+    padding: 2% 6% 2% 6%;
+}
